@@ -1,0 +1,123 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    color: #ffffff;
+}
+
+/* ===== Navigation ===== */
+nav {
+    padding: 16px 40px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #ffe066;
+}
+
+/* ===== Container ===== */
+.container {
+    max-width: 420px;
+    margin: 60px auto;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* ===== Headings ===== */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ===== Form ===== */
+form p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* ===== Button ===== */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #ffe066;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ffd43b;
+}
+
+/* ===== Result ===== */
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ===== Guide ===== */
+#guide {
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#guide h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#guide ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+#guide li {
+    margin-bottom: 6px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+    .container {
+        margin: 40px 15px;
+        padding: 25px;
+    }
+}

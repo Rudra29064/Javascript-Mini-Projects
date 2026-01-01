@@ -1,0 +1,101 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    min-height: 100vh;
+    background: #f5f5f5;
+    color: #222;
+    transition: background-color 0.4s ease;
+}
+
+/* ===== Navigation ===== */
+nav {
+    padding: 16px 40px;
+    background: #111;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* ===== Canvas ===== */
+.canvas {
+    max-width: 700px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* ===== Headings ===== */
+.canvas h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.canvas h2 {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* ===== Color Buttons ===== */
+.button {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid #333;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Individual Colors ===== */
+#grey {
+    background: grey;
+}
+
+#black {
+    background: black;
+}
+
+#green {
+    background: green;
+}
+
+#blue {
+    background: blue;
+}
+
+#red {
+    background: red;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    .canvas h1 {
+        font-size: 28px;
+    }
+
+    .button {
+        width: 60px;
+        height: 60px;
+    }
+}

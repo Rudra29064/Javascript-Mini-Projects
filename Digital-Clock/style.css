@@ -1,0 +1,73 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #ffffff;
+}
+
+/* ===== Navigation ===== */
+nav {
+    padding: 16px 40px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #00f5d4;
+}
+
+/* ===== Center Container ===== */
+.center {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Banner ===== */
+#banner {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00f5d4;
+}
+
+/* ===== Clock Display ===== */
+#clock {
+    padding: 25px 50px;
+    font-size: 48px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    letter-spacing: 3px;
+    min-width: 280px;
+    text-align: center;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    #clock {
+        font-size: 36px;
+        padding: 20px 35px;
+    }
+
+    #banner {
+        font-size: 20px;
+    }
+}
